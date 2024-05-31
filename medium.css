@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    background-color: orange;
+
+
+}
+
+#divOne,
+#divTwo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#divOne>h1 {
+    margin-left: 200px;
+}
+
+#divTwo {
+    justify-content: flex-end;
+}
+
+#divTwo>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+    list-style-type: none;
+}
+
+#divTwo>button {
+    background-color: black;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10%;
+}
+
+#sectionOne{
+    height: 500px;
+    width: 100%;
+    display: flex;
+   background-color:orange;
+}
+
+#divThree{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#divThree>h1{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+#divThree>p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+
+#divThree>button{
+    display: flex;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+
+
+#divFour{
+    display: flex;
+    font-size: large;
+    align-items: center;
+}
+
+#divFour>p{
+margin-left: 150px;
+font-size: 20px;
+margin-top: 60px;
+}
+
+#div5{
+    height: 138px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 20px;
+/* border-bottom: 2px solid red; */
+}
+
+#section6{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+   margin-left: 40px;
+border-bottom: 1px solid gray;
+}
+#section7{
+    
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+#div7{
+width: 60%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+#EmmrexOne{ 
+   width: 80%;
+   height: 130px;
+   margin-bottom: 80px;
+   display: flex;
+margin-top: 50px;
+}
+
+
+#EmmrexOne > div:first-child{
+    
+    width: 68%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#EmmrexOne > div:last-child{
+    width: 31%;
+    height: 100%;
+}
+
+#divTwo{
+    width: 40%;
+    height: fit-content;
+    position: sticky;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+   #divTwo > div{
+    height: 40px;
+    width: 80%; 
+   }
+   
+   
